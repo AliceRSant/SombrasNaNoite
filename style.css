@@ -1,0 +1,70 @@
+:root {
+    --cor-de-fundo: #200d0d;
+    --vermelho:#a51515;
+    --branco: #ffffff;
+    --preto: #000000;
+    
+}
+
+.background {
+    background-color: var(--cor-de-fundo);
+}
+
+.cabecalho {
+    background-color: var(--vermelho);
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+   padding:10px 10px;
+}
+
+.img-cabecalho {
+    width: 7%;
+    padding: 10px;
+}
+
+.img-mitoselendas {
+    width: 35%;
+    padding: 30px 600px;
+}
+
+.introducao{
+    background-color: var(--cor-de-fundo);
+}
+
+.lista-cabeçalho-item {
+    display:inline-block;
+    padding: 25px;
+    color: var(--branco);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+a { 
+    color: currentColor;
+    text-decoration: none;
+ }  
+
+.titulo{
+    text-align: center;
+    font-size: 35px;
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 25px;
+    color: var(--branco);
+}
+
+.introducao-texto {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: var(--branco);
+    padding: 25px 25px;
+    hyphens: auto;
+    line-height:100%
+}
+
