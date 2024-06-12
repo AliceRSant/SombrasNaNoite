@@ -15,8 +15,21 @@
    display: flex;
    align-items: flex-end;
    justify-content: space-around;
-   padding:10px 10px;
+  padding: 20px 0;
+ position: relative;
+   width:1545px;
+  margin: 0 auto;
 }
+
+header
+{background-color: var(--vermelho);
+padding:20px 0;
+}
+
+.caixa {
+  position: relative;
+  width:940px;
+  margin: 0 auto;}
 
 .img-cabecalho {
     width: 7%;
@@ -27,13 +40,28 @@
     width: 35%;
     padding: 30px 600px;
 }
-:root {
-    --cor-de-fundo: #200d0d;
-    --vermelho:#a51515;
-    --branco: #ffffff;
-    --preto: #000000;
-    
+
+nav
+{position:absolute;
+top:20px;
+right:0}
+
+nav li
+{display: inline;
+margin: 0 0 0 15px}
+
+nav a
+{ text-transform:uppercase;
+color:var(--branco);
+font-weight:bold;
+font-size: 22px;
+text-decoration: none}
+
+nav a:hover {
+color: var(--preto);
+#text-decoration: underline;#
 }
+   
 
 .background {
     background-color: var(--cor-de-fundo);
