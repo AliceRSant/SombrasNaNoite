@@ -63,7 +63,7 @@ text-decoration: none}
 
 .nav a:hover {
 color: var(--preto);
-text-decoration: underline;
+#text-decoration: underline;#
 }
    
 
@@ -140,3 +140,8 @@ text-decoration: underline;
   list-style: none;
   margin-left: 0;
   margin-bott }
+
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { margin-right: 1.5em; }
+
+	
