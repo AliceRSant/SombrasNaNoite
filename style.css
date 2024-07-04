@@ -6,15 +6,15 @@
     
 }
 
-.background {
+background {
     background-color: var(--cor-de-fundo);
 }
 
-.body {
+body {
   margin: 0;
 }
 
-.cabecalho {
+cabecalho {
     background-color: var(--vermelho);
    display: flex;
    align-items: flex-end;
@@ -35,12 +35,12 @@ padding:20px 0;
   width:940px;
   margin: 0 auto;}
 
-.img-cabecalho {
+img-cabecalho {
     width: 7%;
     padding: 10px;
 }
 
-.img-mitoselendas {
+img-mitoselendas {
     width: 35%;
     padding: 30px 600px;
 }
@@ -66,19 +66,7 @@ color: var(--preto);
 #text-decoration: underline;#
 }
    
-
-.background {
-    background-color: var(--cor-de-fundo);
-}
-
-.cabecalho {
-    background-color: var(--vermelho);
-   display: flex;
-   align-items: flex-end;
-   justify-content: space-around;
-   padding:10px 10px;
-}
-.lista-cabeçalho-item {
+lista-cabeçalho-item {
     display:inline-block;
     padding: 25px;
     color: var(--branco);
@@ -91,27 +79,27 @@ a {
     text-decoration: none;
  }  
 
-.titulo{
+titulo{
     text-align: center;
     font-size: 35px;
     color: var(--branco);
     background-color: var(--cor-de-fundo);
 }
 
-.subtitulo {
+subtitulo {
     text-align: center;
     font-size: 25px;
     color: var(--branco);
 }
 
-.subtitulo2 {
+subtitulo2 {
     text-align:left;
     font-size: 20px;
     color: var(--branco);
     padding: 25px 25px;
 }
 
-.paragrafo-texto {
+paragrafo-texto {
     display: flex;
     align-items: center;
     font-size: 17px;
@@ -121,7 +109,7 @@ a {
     line-height:100%
 }
 
-.img-lendas {
+img-lendas {
     width: 30%;
     padding: 30px 600px;
 }
