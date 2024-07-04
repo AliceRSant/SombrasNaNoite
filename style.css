@@ -25,7 +25,7 @@
   margin: 0 auto;
 }
 
-header
+.header
 {background-color: var(--vermelho);
 padding:20px 0;
 }
@@ -45,23 +45,23 @@ padding:20px 0;
     padding: 30px 600px;
 }
 
-nav
+.nav
 {position:absolute;
 top:20px;
 right:0}
 
-nav li
+.nav li
 {display: inline;
 margin: 0 0 0 15px}
 
-nav a
+.nav a
 { text-transform:uppercase;
 color:var(--branco);
 font-weight:bold;
 font-size: 22px;
 text-decoration: none}
 
-nav a:hover {
+.nav a:hover {
 color: var(--preto);
 #text-decoration: underline;#
 }
@@ -86,7 +86,7 @@ color: var(--preto);
     font-weight: bolder;
 }
 
-a { 
+.a { 
     color: currentColor;
     text-decoration: none;
  }  
