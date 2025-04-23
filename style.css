@@ -239,6 +239,9 @@ header {
   border-left: 4px solid #ff3c3c;
   animation: fadeIn 0.3s ease forwards;
 }
+.acordeao .conteudo-creepy.ativo {
+  display: block;
+}
 
 /* Animação para o conteúdo aparecer */
 @keyframes fadeIn {
