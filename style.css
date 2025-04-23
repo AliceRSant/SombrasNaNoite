@@ -194,7 +194,7 @@ header {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
   border-bottom: 2px solid #444;  /* Cor mais clara do fundo */
-  font-family: 'Creepster', cursive;  /* Fonte mais sombria */
+  font-family: 'UnifrakturCook', cursive;  /* Fonte gótica */
   letter-spacing: 1.5px;
   position: relative;
 }
@@ -245,5 +245,6 @@ header {
     transform: translateY(0);
   }
 }
+
 
 
