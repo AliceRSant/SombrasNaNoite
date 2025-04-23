@@ -288,5 +288,13 @@ header {
   80% { transform: translate(1px, -1px); }
   100% { transform: translate(0); }
 }
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitulo {
+    font-size: 20px;
+  }
+}
 
 
