@@ -1,11 +1,3 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Cores e fontes */
 :root {
   --cor-de-fundo: #200d0d;
   --vermelho: #a51515;
@@ -13,98 +5,175 @@
   --preto: #000000;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: var(--cor-de-fundo);
-  color: var(--branco);
-}
-
 .background {
   background-color: var(--cor-de-fundo);
 }
 
-header {
+.body {
+  margin: 0;
+  background-color: var(--vermelho);
+}
+
+.cabecalho {
   background-color: var(--vermelho);
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 20px 0;
   position: relative;
+  width: 100%;
+  max-width: 1830px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.caixa {
+  position: relative;
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 .img-cabecalho {
-  width: 100px;
+  width: 7%;
+  padding: 10px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+.img-mitoselendas {
+  width: 35%;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: block;
 }
 
-nav a {
-  color: var(--branco);
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
+.nav {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.nav a {
   text-transform: uppercase;
+  color: var(--branco);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
   color: var(--preto);
   text-decoration: underline;
 }
 
-main {
-  padding: 20px;
+.lista-cabeçalho-item {
+  display: inline-block;
+  padding: 25px;
+  color: var(--branco);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.a {
+  color: currentColor;
+  text-decoration: none;
 }
 
 .titulo {
   text-align: center;
-  font-size: 36px;
-  margin: 20px 0;
+  font-size: 35px;
+  color: var(--branco);
+  background-color: var(--cor-de-fundo);
 }
 
 .subtitulo {
-  font-size: 28px;
-  margin: 10px 0;
-  color: var(--vermelho);
-}
-
-.paragrafo-texto {
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 10px 0;
-}
-
-/* Estilo de lista de texto */
-.texto-lista {
-  margin-bottom: 40px;
-}
-
-/* Adicionando estilos específicos para as seções de creepypastas */
-.texto-lista h2 {
-  font-size: 26px;
-  margin-bottom: 15px;
-  color: var(--vermelho); /* Cor de destaque */
-}
-
-.texto-lista p {
-  font-size: 18px;
-  line-height: 1.8;
+  text-align: center;
+  font-size: 25px;
   color: var(--branco);
 }
 
-.texto-lista img {
-  width: 100%;
-  margin-top: 20px;
+.subtitulo2 {
+  text-align: left;
+  font-size: 20px;
+  color: var(--branco);
+  padding: 25px;
 }
 
-/* Ajustes específicos para os parágrafos de texto */
 .paragrafo-texto {
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: var(--branco);
+  padding: 25px;
+  hyphens: auto;
+  line-height: 1.5;
 }
 
+.img-lendas {
+  width: 30%;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: block;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.columnsContainer,
+footer,
+header {
+  position: relative;
+  margin: .9em;
+}
+
+.leftColumn,
+footer,
+header {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+.leftColumn {
+  margin-bottom: .5em;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsividade básica */
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-cabecalho,
+  .img-mitoselendas,
+  .img-lendas {
+    width: 80%;
+  }
+
+  .nav {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .lista-cabeçalho-item {
+    display: block;
+    text-align: center;
+  }
+}
