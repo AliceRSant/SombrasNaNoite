@@ -176,13 +176,15 @@ header {
   }
 }
 
+/* Estilo geral do acordeão */
 .acordeao .item {
   margin-bottom: 10px;
 }
 
+/* Estilo do botão (Título) */
 .acordeao .titulo-creepy {
   width: 100%;
-  background-color: #0e0e0e;
+  background-color: #222;  /* Fundo escuro */
   color: #fff;
   border: none;
   text-align: left;
@@ -191,19 +193,21 @@ header {
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
-  border-bottom: 2px solid #1f1f1f;
-  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 2px solid #444;  /* Cor mais clara do fundo */
+  font-family: 'Creepster', cursive;  /* Fonte mais sombria */
   letter-spacing: 1.5px;
   position: relative;
 }
 
+/* Efeito de hover no botão */
 .acordeao .titulo-creepy:hover {
-  background-color: #1a1a1a;
-  color: #ff3c3c;
-  transform: scale(1.01);
-  box-shadow: 0 0 10px rgba(255, 60, 60, 0.3);
+  background-color: #333;  /* Fundo um pouco mais claro ao passar o mouse */
+  color: #ff3c3c;  /* Cor vermelha para destaque */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 60, 60, 0.4);
 }
 
+/* Ícone antes do título */
 .acordeao .titulo-creepy::before {
   content: "✦";
   position: absolute;
@@ -213,21 +217,24 @@ header {
   transition: transform 0.3s ease;
 }
 
+/* Efeito de hover no ícone */
 .acordeao .titulo-creepy:hover::before {
   transform: rotate(180deg);
 }
 
+/* Estilo do conteúdo (o texto que aparece quando o título é clicado) */
 .acordeao .conteudo-creepy {
-  background-color: #181818;
+  background-color: #181818;  /* Fundo bem escuro */
   color: #e6e6e6;
   padding: 20px 30px;
-  display: none;
+  display: none;  /* Inicialmente escondido */
   font-size: 1.1rem;
   line-height: 1.6;
   border-left: 4px solid #ff3c3c;
   animation: fadeIn 0.3s ease forwards;
 }
 
+/* Animação para o conteúdo aparecer */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -238,4 +245,5 @@ header {
     transform: translateY(0);
   }
 }
+
 
