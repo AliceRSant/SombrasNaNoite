@@ -277,6 +277,10 @@ ul, ol {
   list-style-type: none; /* Remove os marcadores (se quiser) */
 }
 
+.paragrafo-texto p {
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
 
 
   .lista-cabeçalho-item {
