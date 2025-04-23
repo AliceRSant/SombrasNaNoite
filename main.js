@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // Adiciona evento de clique em cada botão
   botoes.forEach((botao, index) => {
     botao.addEventListener("click", () => {
-      // Verifica se o conteúdo já está visível
       const conteudo = textos[index];
 
       // Se o conteúdo já estiver visível, esconda-o
