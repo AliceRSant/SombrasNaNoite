@@ -9,6 +9,19 @@
   background-color: var(--cor-de-fundo);
 }
 
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
   font-family: 'Spectral SC', serif  !important;
   background-color: var(--cor-de-fundo);
