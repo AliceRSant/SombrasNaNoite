@@ -251,5 +251,38 @@ header {
   }
 }
 
+.titulo, .subtitulo, .titulo-creepy {
+  text-shadow: 0 0 8px rgba(255, 60, 60, 0.5);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #200d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a51515;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff3c3c;
+}
+
+.titulo-creepy:hover {
+  animation: glitch 0.4s;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0); }
+}
 
 
