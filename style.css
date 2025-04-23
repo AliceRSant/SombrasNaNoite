@@ -122,8 +122,6 @@ body {
   max-width: 1830px;
   margin: 0 auto;
   flex-wrap: wrap;
-  height: 300px; /* ajusta aqui também */
-  overflow: hidden;
 }
 
 .caixa {
