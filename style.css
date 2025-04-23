@@ -134,7 +134,7 @@ body {
 .img-cabecalho {
   width: 7%;
   padding: 10px;
-   height: 300px;
+   height: 100px;
 }
 
 
@@ -241,12 +241,6 @@ header {
     align-items: center;
   }
 
-  .img-cabecalho{
-    width: 100%;
-    height: auto;
-  min-height: 300px; /* ou 400px, testa o que fica bom */
-  object-fit: cover; /* corta o excesso e preenche bonito */
-  }
 
   .nav {
     position: static;
