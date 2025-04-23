@@ -204,6 +204,9 @@ body {
   line-height: 1.5;
 }
 
+.iframe {
+  align-items: center;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
