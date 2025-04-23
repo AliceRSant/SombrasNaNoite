@@ -155,10 +155,8 @@ header {
     align-items: center;
   }
 
-  .img-cabecalho,
-  .img-mitoselendas,
-  .img-lendas {
-    width: 80%;
+  .img-cabecalho{
+    width: 100%;
   }
 
   .nav {
@@ -176,4 +174,30 @@ header {
     display: block;
     text-align: center;
   }
+}
+
+.acordeao .titulo-creepy {
+  width: 100%;
+  text-align: left;
+  padding: 15px 25px;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--branco);
+  background-color: var(--vermelho);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+.acordeao .titulo-creepy:hover {
+  background-color: #831212;
+}
+
+.acordeao .conteudo-creepy {
+  padding: 0 25px;
+  display: none;
+  color: var(--branco);
+  font-size: 17px;
+  line-height: 1.5;
 }
