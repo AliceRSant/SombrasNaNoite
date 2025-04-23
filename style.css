@@ -404,7 +404,7 @@ ul, ol {
 }
 
 .paragrafo-texto {
-  margin-bottom: 8px; /* diminui o espaço entre os parágrafos */
+  margin-bottom: 4px; /* diminui o espaço entre os parágrafos */
   line-height: 1.5;   /* mantém a leitura fluida */
   font-size: 16px;    /* pode ajustar se quiser menor ou maior */
 }
