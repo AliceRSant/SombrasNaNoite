@@ -176,42 +176,66 @@ header {
   }
 }
 
+.acordeao .item {
+  margin-bottom: 10px;
+}
+
 .acordeao .titulo-creepy {
-.titulo-creepy {
   width: 100%;
-  background-color: #111;
+  background-color: #0e0e0e;
   color: #fff;
   border: none;
   text-align: left;
-  padding: 15px 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
+  padding: 20px 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-  border-bottom: 1px solid #333;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  border-bottom: 2px solid #1f1f1f;
   font-family: 'Courier New', Courier, monospace;
-  letter-spacing: 1px;
-}
-
-
-.acordeao .titulo-creepy:focus {
-  outline: none;
-  background-color: #222;
-}
-
+  letter-spacing: 1.5px;
+  position: relative;
 }
 
 .acordeao .titulo-creepy:hover {
-  background-color: #1c1c1c;
-  color: #ff4444;
-  transform: translateX(5px);
-  box-shadow: inset 3px 0 0 #ff4444;
+  background-color: #1a1a1a;
+  color: #ff3c3c;
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(255, 60, 60, 0.3);
+}
+
+.acordeao .titulo-creepy::before {
+  content: "✦";
+  position: absolute;
+  left: 10px;
+  color: #ff3c3c;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.acordeao .titulo-creepy:hover::before {
+  transform: rotate(180deg);
 }
 
 .acordeao .conteudo-creepy {
-  padding: 0 25px;
+  background-color: #181818;
+  color: #e6e6e6;
+  padding: 20px 30px;
   display: none;
-  color: var(--branco);
-  font-size: 17px;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border-left: 4px solid #ff3c3c;
+  animation: fadeIn 0.3s ease forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
