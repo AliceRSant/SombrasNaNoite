@@ -204,6 +204,11 @@ body {
   line-height: 1.5;
 }
 
+p {
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+
 
 *, *:before, *:after {
   box-sizing: border-box;
