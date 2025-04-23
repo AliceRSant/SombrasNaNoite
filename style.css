@@ -10,13 +10,13 @@
 }
 
 body {
-  font-family: 'Spectral SC', serif;
+  font-family: 'Spectral SC', serif  !important;
   background-color: var(--cor-de-fundo);
 }
 
 .titulo,
 .subtitulo {
-  font-family: 'UnifrakturCook', cursive;
+  font-family: 'UnifrakturCook', cursive  !important;
 }
 
 
