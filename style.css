@@ -10,9 +10,12 @@
 }
 
 body {
-  margin: 0;
+  font-family: 'Spectral SC', serif;
+}
+
+.titulo,
+.subtitulo {
   font-family: 'UnifrakturCook', cursive;
-  background-color: var(--cor-de-fundo);
 }
 
 
