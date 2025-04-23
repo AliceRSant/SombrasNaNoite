@@ -1,21 +1,19 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const botoes = document.querySelectorAll(".titulo-creepy");
+document.addEventListener("DOMContentLoaded", function() {
+  const botoes = document.querySelectorAll(".titulo-creepy");  // Botões de título
+  const textos = document.querySelectorAll(".conteudo-creepy");  // Conteúdos correspondentes
 
-  botoes.forEach((botao) => {
+  // Adiciona evento de clique em cada botão
+  botoes.forEach((botao, index) => {
     botao.addEventListener("click", () => {
-      const conteudo = botao.nextElementSibling;  // O conteúdo é o próximo elemento após o botão
-      const isVisible = conteudo.style.display === "block";
+      // Verifica se o conteúdo já está visível
+      const conteudo = textos[index];
 
-      // Esconde todos os outros conteúdos
-      document.querySelectorAll(".conteudo-creepy").forEach((el) => {
-        el.style.display = "none";
-      });
-
-      // Exibe o conteúdo clicado
-      if (!isVisible) {
-        conteudo.style.display = "block";
+      // Se o conteúdo já estiver visível, esconda-o
+      if (conteudo.classList.contains("ativo")) {
+        conteudo.classList.remove("ativo");
       } else {
-        conteudo.style.display = "none";  // Caso o conteúdo já esteja visível, ele fecha
+        // Caso contrário, abra o conteúdo
+        conteudo.classList.add("ativo");
       }
     });
   });
