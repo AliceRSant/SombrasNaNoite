@@ -15,7 +15,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: var(--vermelho);
+  background-color: var(--cor-de-fundo);
   color: var(--branco);
 }
 
@@ -68,6 +68,7 @@ main {
 .subtitulo {
   font-size: 28px;
   margin: 10px 0;
+  color: var(--vermelho);
 }
 
 .paragrafo-texto {
@@ -80,3 +81,30 @@ main {
 .texto-lista {
   margin-bottom: 40px;
 }
+
+/* Adicionando estilos específicos para as seções de creepypastas */
+.texto-lista h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: var(--vermelho); /* Cor de destaque */
+}
+
+.texto-lista p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--branco);
+}
+
+.texto-lista img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Ajustes específicos para os parágrafos de texto */
+.paragrafo-texto {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
