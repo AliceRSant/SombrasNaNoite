@@ -134,7 +134,7 @@ body {
 .img-cabecalho {
   width: 7%;
   padding: 10px;
-  height: 300px;
+   height: 300px;
 }
 
 
@@ -380,27 +380,36 @@ header {
   }
 }
 
-footer {
-  background-color: #111; /* fundo escuro chique */
-  color: #eee; /* texto claro */
+.footer {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
   text-align: center;
   padding: 40px 20px;
-  font-family: 'Inter', sans-serif;
   font-size: 14px;
 }
 
-footer a {
-  color: #00bcd4; /* azul neon vibes */
-  text-decoration: none;
+.footer a {
+  color: var(--vermelho);
   margin: 0 10px;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
-footer a:hover {
-  color: #ffffff;
+.footer a:hover {
+  color: var(--branco);
 }
 
-footer p {
-  margin: 8px 0;
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 
