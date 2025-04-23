@@ -177,21 +177,35 @@ header {
 }
 
 .acordeao .titulo-creepy {
+.titulo-creepy {
   width: 100%;
-  text-align: left;
-  padding: 15px 25px;
-  font-size: 22px;
-  font-weight: bold;
-  color: var(--branco);
-  background-color: var(--vermelho);
+  background-color: #111;
+  color: #fff;
   border: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  border-bottom: 1px solid #333;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 1px;
+}
+
+
+.acordeao .titulo-creepy:focus {
   outline: none;
-  transition: background-color 0.2s ease;
+  background-color: #222;
+}
+
 }
 
 .acordeao .titulo-creepy:hover {
-  background-color: #831212;
+  background-color: #1c1c1c;
+  color: #ff4444;
+  transform: translateX(5px);
+  box-shadow: inset 3px 0 0 #ff4444;
 }
 
 .acordeao .conteudo-creepy {
