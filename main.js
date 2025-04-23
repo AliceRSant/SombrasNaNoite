@@ -1,15 +1,22 @@
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
+document.addEventListener("DOMContentLoaded", function() {
+  const botoes = document.querySelectorAll(".botao");
+  const textos = document.querySelectorAll(".aba-conteudo");
 
-for(let i=0;i <botoes.length;i++){
-    botoes[i].onclick = function(){
+  // Verifica se os botões e textos existem
+  if (botoes.length === 0 || textos.length === 0) return;
 
-        for(let j=0;j<botoes.length;j++){
-            botoes[j].classList.remove("ativo");
-            textos[j].classList.remove("ativo");
-        }
+  // Adiciona evento de clique em cada botão
+  botoes.forEach((botao, index) => {
+    botao.addEventListener("click", () => {
+      // Remove a classe "ativo" de todos os botões e textos
+      botoes.forEach((btn, idx) => {
+        btn.classList.remove("ativo");
+        textos[idx].classList.remove("ativo");
+      });
 
-        botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
-    }
-}
+      // Adiciona a classe "ativo" no botão e no conteúdo correspondente
+      botao.classList.add("ativo");
+      textos[index].classList.add("ativo");
+    });
+  });
+});
