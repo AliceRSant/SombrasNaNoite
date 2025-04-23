@@ -385,9 +385,6 @@ ul, ol {
   background: #ff3c3c;
 }
 
-.titulo-creepy:hover {
-  animation: glitch 0.4s;
-}
 
 @keyframes glitch {
   0% { transform: translate(0); }
