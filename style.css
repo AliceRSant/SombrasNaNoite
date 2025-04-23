@@ -15,10 +15,88 @@
   font-style: normal;
 }
 
-.unifrakturcook-bold {
-  font-family: "UnifrakturCook", cursive;
+.spectral-sc-extralight {
+  font-family: "Spectral SC", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-sc-light {
+  font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-sc-regular {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-medium {
+  font-family: "Spectral SC", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-sc-semibold {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-sc-bold {
+  font-family: "Spectral SC", serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.spectral-sc-extrabold {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-sc-extralight-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.spectral-sc-light-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.spectral-sc-regular-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.spectral-sc-medium-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.spectral-sc-semibold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spectral-sc-bold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-sc-extrabold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 
