@@ -9,10 +9,12 @@
   background-color: var(--cor-de-fundo);
 }
 
-.body {
+body {
   margin: 0;
-  background-color: var(--vermelho);
+  font-family: 'UnifrakturCook', cursive;
+  background-color: var(--cor-de-fundo);
 }
+
 
 .cabecalho {
   background-color: var(--vermelho);
