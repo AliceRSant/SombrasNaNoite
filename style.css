@@ -122,6 +122,8 @@ body {
   max-width: 1830px;
   margin: 0 auto;
   flex-wrap: wrap;
+  height: 300px; /* ajusta aqui também */
+  overflow: hidden;
 }
 
 .caixa {
@@ -247,7 +249,10 @@ header {
   }
 
   .img-cabecalho{
-    width: 150%;
+    width: 100%;
+    height: auto;
+  min-height: 300px; /* ou 400px, testa o que fica bom */
+  object-fit: cover; /* corta o excesso e preenche bonito */
   }
 
   .nav {
