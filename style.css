@@ -204,11 +204,6 @@ body {
   line-height: 1.5;
 }
 
-p {
-  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
-}
-
-
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -256,6 +251,33 @@ header {
     display: block;
     margin: 10px 0;
   }
+
+  /* Estilo para a lista */
+ul, ol {
+  padding-left: 20px; /* Ajusta a indentação das listas */
+}
+
+/* Estilo para cada item de lista */
+li {
+  margin-bottom: 10px; /* Ajuste o valor para diminuir o espaço entre os itens da lista */
+}
+
+/* Ajuste para os parágrafos dentro das listas */
+li p {
+  margin: 0; /* Remove o margin do parágrafo dentro do item da lista */
+  line-height: 1.4; /* Ajuste para deixar o texto mais compacto ou espaçado conforme necessário */
+  margin-top: 0; /* Remove margem superior */
+  margin-bottom: 5px; /* Reduz o espaço inferior */
+}
+
+/* Resetando o estilo da lista */
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; /* Remove os marcadores (se quiser) */
+}
+
+
 
   .lista-cabeçalho-item {
     display: block;
