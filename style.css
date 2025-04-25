@@ -404,7 +404,8 @@ ul, ol {
   }
 }
 
-
-
-
-
+<style>
+body, a {
+  cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1052.cur'), auto;
+}
+</style>
